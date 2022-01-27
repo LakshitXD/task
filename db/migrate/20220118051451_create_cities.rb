@@ -1,7 +1,7 @@
 class CreateCities < ActiveRecord::Migration[6.1]
   def change
     create_table :cities do |t|
-      t.string :city_name
+      t.string :city_name, null: false
       t.string :country_name
       t.string :image_url
       t.timestamps

@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2022_01_18_051451) do
   enable_extension "plpgsql"
 
   create_table "cities", force: :cascade do |t|
-    t.string "city_name"
+    t.string "city_name", null: false
     t.string "country_name"
     t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
