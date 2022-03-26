@@ -9,7 +9,7 @@ RSpec.describe 'Cities', type: :request do
         "data": {
           "type": 'cities',
           "attributes": {
-            "city-name": 'London',
+            "city-name": 'Europe',
             "country-name": 'Uk',
             "image-url": 'https://example.com'
           }
